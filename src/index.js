@@ -1,12 +1,55 @@
+
+// Import the React and ReactDOM libraries
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+import faker from 'faker';
+import CommentDetail from './CommentDetail';
+import ApprovalCard from './ApprovalCard';
+// Create a react component
+const App = () =>  {
+  return  (
+    
+    <div className="ui container comments">
+          <ApprovalCard>
+            <div>
+              <h4>Warning!</h4>
+              Are you sure you want to do this?
+            </div>
+          </ApprovalCard>
 
-ReactDOM.render(<App />, document.getElementById('root'));
+          <ApprovalCard>
+            <CommentDetail
+              author="Sam"
+              timeAgo="Today at 4:45PM"
+              text="Nice blog post"
+              image={faker.image.avatar()}
+            />
+          </ApprovalCard>
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+          <ApprovalCard>
+            <CommentDetail
+              author="Alex"
+              timeAgo="Today at 2:00AM"
+              text="I like the subject"
+              image={faker.image.avatar()}
+            />
+          </ApprovalCard>
+
+          <ApprovalCard>
+            <CommentDetail
+              author="Jane"
+              timeAgo="Yesterday at 5:00PM"
+              text="I like the writing"
+              image={faker.image.avatar()}
+            />
+          </ApprovalCard>
+        </div>
+  );
+};
+
+// Take the react component and show it on the screen
+ReactDOM.render(
+  <App/>,
+  document.querySelector('#root')
+  
+);
