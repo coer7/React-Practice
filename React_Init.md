@@ -29,6 +29,7 @@
   - ES2015 Modules   => import
   - CommonJS Modules => require
 - Project Directory
+
   | Folder/File         | Explanation                                                 |
   | --------------------|:------------------------------------------------------------|
   | src                 | Folder where we put all the source code we write            |
