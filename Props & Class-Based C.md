@@ -25,5 +25,8 @@
 
   ![alt text](https://i.imgur.com/5c0jXRm.png)
 
+
+
 ## Class-Based Components
-  
+
+  ![alt text](https://i.imgur.com/KoswQPK.png)
