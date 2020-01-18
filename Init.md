@@ -13,6 +13,11 @@ npm uninstall -g create-react-app
 ```bash
 npm start
 ```
+## React concept: 
+
+- Component Nesting 
+- Component Reusability 
+- Component configuration 
 
 ## Question
 
@@ -31,6 +36,14 @@ npm start
 - import vs require
   - ES2015 Modules   => import
   - CommonJS Modules => require
+
+- JSX direct access to element (function) variables or function object: 
+
+    ```javascript 
+    const lableName = 'Age'; 
+    Return <p>{lableName}</p>; 
+    ```
+
 - Project Directory
 
   | Folder/File         | Explanation                                                 |
