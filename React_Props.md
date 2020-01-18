@@ -1,4 +1,4 @@
-# React - Communication with Props
+# React - Props & Class-Based Components
 
 ## Basic UI & Data
 
@@ -24,3 +24,6 @@
   ![alt text](https://i.imgur.com/Vc8QPeb.png)
 
   ![alt text](https://i.imgur.com/5c0jXRm.png)
+
+## Class-Based Components
+  
