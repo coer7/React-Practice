@@ -2,13 +2,17 @@
 
 ## Installation/Uninstallation
 
-- npm install -g create-react-app
-- npx create-react-app myapp
-- npm uninstall -g create-react-app
+```bash
+npm install -g create-react-app
+npx create-react-app myapp
+npm uninstall -g create-react-app
+```
 
-## Run React
+## Run React (localhost:3000)
 
-- npm start (localhost:3000)
+```bash
+npm start
+```
 
 ## Question
 
@@ -22,9 +26,8 @@
     - className vs class  |  htmlFor vs for (HTML/JSX)
     ![alt text](https://i.imgur.com/jyNXt4a.png "class/for vs className/htmlFor")
 - Whats is a componenet?
-  - it can be a function or a class
-  - it produces HTML using JSX
-  - it handles feedback from the user using Event Handlers
+  ![alt text](https://i.imgur.com/QEj8qdF.png)
+  ![alt text](https://i.imgur.com/LoPdcnt.png)
 - import vs require
   - ES2015 Modules   => import
   - CommonJS Modules => require
