@@ -39,6 +39,7 @@ npm start
 - Whats is a componenet?
   ![alt text](https://i.imgur.com/QEj8qdF.png)
   ![alt text](https://i.imgur.com/LoPdcnt.png)
+
 - import vs require
   - ES2015 Modules   => import
   - CommonJS Modules => require
